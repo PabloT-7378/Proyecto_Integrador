@@ -2,3 +2,8 @@ div {
     background-color: gainsboro;
    
 }
+
+app-rsociales {
+    float: right;
+    margin-top: 30px;
+}
