@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { LogoArgentinaProgramaComponent } from './components/logo-argentina-programa/logo-argentina-programa.component';
 import { RSocialesComponent } from './components/rsociales/rsociales.component';
+import { BannerComponent } from './components/banner/banner.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     LogoArgentinaProgramaComponent,
-    RSocialesComponent
+    RSocialesComponent,
+    BannerComponent
   ],
   imports: [
     BrowserModule,

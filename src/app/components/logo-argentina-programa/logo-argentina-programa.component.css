@@ -1,5 +1,28 @@
-#logoArgentinaPrograma {
-    width: 140px;
-    
-    
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
+.container .logoAP {
+    display: flex;
+    align-items: center;
+}
+
+.container .social {
+    margin-right: 0.4em;
+}
+
+#logoArgentinaPrograma {
+    width: 150px;
+}
+
+img {
+    width: 45px;
+    padding: 2px;
+}
+
+.container .social .btn {
+    border-width: medium;
+}
+
