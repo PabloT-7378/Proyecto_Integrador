@@ -1,0 +1,33 @@
+div {
+    background-color: gainsboro;
+    text-align: center;
+}
+
+.row {
+    padding: 20px;
+}
+
+@media (min-width: 576px) {
+    #foto {
+        position: relative;
+        width: 20%;
+        border-radius: 100%;
+        box-shadow: 4px 4px 4px;
+        right: 40%;
+        top: -170%;
+    }
+}
+
+@media (max-width: 575px) {
+    #foto {
+        position: relative;
+        width: 25%;
+        border-radius: 100%;
+        box-shadow: 4px 4px 4px;
+        top: -100%;
+    }
+}
+
+#perfil {
+    height: 90px;
+}
