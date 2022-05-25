@@ -1,0 +1,19 @@
+.row {
+    padding: 30px;
+
+}
+
+div {
+    background: gainsboro; 
+}
+
+h1, h3 {
+    display: inline;
+}
+
+#experiencia {
+    width: 80%;
+    height: 80%;
+    display: grid;
+    margin: auto;
+}

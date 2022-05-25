@@ -28,6 +28,39 @@ div {
     }
 }
 
+@media (min-width: 768px) {
+    #foto {
+        position: relative;
+        width: 20%;
+        border-radius: 100%;
+        box-shadow: 4px 4px 4px;
+        right: 44%;
+        top: -78%;
+    }
+}
+
+@media (min-width: 992px) {
+    #foto {
+        position: relative;
+        width: 20%;
+        border-radius: 100%;
+        box-shadow: 4px 4px 4px;
+        right: 40%;
+        top: -125%;
+    }
+}
+
+@media (min-width: 1200px) {
+    #foto {
+        position: relative;
+        width: 20%;
+        border-radius: 100%;
+        box-shadow: 4px 4px 4px;
+        right: 40%;
+        top: -150%;
+    }
+}
+
 #perfil {
     height: 90px;
 }
